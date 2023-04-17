@@ -1,5 +1,7 @@
 # Awesome Motion Generation Papers
 
+Last updated on: 17.04.2023
+
 ### Modeling motion with ...
 1. [Variational Auto Encoders (VAEs)](#vaes)
 2. [Diffusion Processes](#diffusion-processes)
