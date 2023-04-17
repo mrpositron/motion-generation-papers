@@ -1,4 +1,4 @@
-# Awesome Motion Diffusion Papers
+# Awesome Motion Generation Papers
 
 <!-- [[website]()][[arXiv]()][[code]()] -->
 <!-- date -->
