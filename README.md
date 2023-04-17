@@ -1,11 +1,27 @@
 # Awesome Motion Generation Papers
 
+### Modeling motion with ...
+1. [Variational Auto Encoders (VAEs)](#vaes)
+2. [Diffusion Processes](#diffusion-processes)
+
 <!-- [[website]()][[arXiv]()][[code]()] -->
 <!-- date -->
 
+## VAEs
+
+**Generating Diverse and Natural 3D Human Motions from Text**   
+*Chuan Guo, Shihao Zou, Xinxin Zuo, Sen Wang, Wei Ji, Xingyu Li, Li Cheng*   
+Venue: CVPR2022
+[[website](https://ericguo5513.github.io/text-to-motion/)][[thecvf](https://openaccess.thecvf.com/content/CVPR2022/papers/Guo_Generating_Diverse_and_Natural_3D_Human_Motions_From_Text_CVPR_2022_paper.pdf)][[code](https://github.com/EricGuo5513/text-to-motion)]
+
+
+> **tldr;** This paper proposes a two-stage approach to address the challenging problem of generating diverse and accurate 3D human motions from text. The first stage involves sampling motion lengths from a learned distribution function conditioned on input text, while the second stage uses a temporal variational autoencoder to synthesize a diverse set of human motions of the sampled lengths using motion snippet code as an internal motion representation.
+
+## Diffusion Processes
+
 **Single Motion Diffusion**.   
 *Sigal Raab, Inbal Leibovitch, Guy Tevet, Moab Arar, Amit H. Bermano, and Daniel Cohen-Or*  
-arXiv preprint.   
+Venue: arXiv preprint.   
 [[website](https://sinmdm.github.io/SinMDM-page/)][[arXiv](https://arxiv.org/abs/2302.05905)][[code](https://github.com/SinMDM/SinMDM)]
 
 <!-- 12 Feb 2023 -->
@@ -17,7 +33,7 @@ arXiv preprint.
 
 **MoFusion: A Framework for Denoising-Diffusion-based Motion Synthesis**  
 *Rishabh Dabral, Muhammad Hamza Mughal, Vladislav Golyanik, Christian Theobalt.*  
-CVPR2023.  
+Venue: CVPR2023.  
 [[website](https://vcai.mpi-inf.mpg.de/projects/MoFusion/)][[arXiv](https://arxiv.org/abs/2212.04495)][no code] 
 
 
@@ -31,7 +47,7 @@ CVPR2023.
 
 **Human Motion Diffusion Model**.   
 *Guy Tevet, Sigal Raab, Brian Gordon, Yonatan Shafir, Daniel Cohen-Or, Amit H. Bermano.*  
-ICLR2023.  
+Venue: ICLR2023.  
 [[website](https://guytevet.github.io/mdm-page/)][[arXiv](https://arxiv.org/abs/2209.14916)][[code](https://github.com/GuyTevet/motion-diffusion-model)]
 
 <!-- 29 Sep 2022 -->
@@ -43,7 +59,7 @@ ICLR2023.
 
 **MotionDiffuse: Text-Driven Human Motion Generation with Diffusion Model**   
 *Mingyuan Zhang, Zhongang Cai, Liang Pan, Fangzhou Hong, Xinying Guo, Lei Yang, Ziwei Liu*   
-arXiv preprint.   
+Venue: arXiv preprint.   
 [[website](https://mingyuan-zhang.github.io/projects/MotionDiffuse.html)][[arXiv](https://arxiv.org/abs/2208.15001)][[code](https://github.com/mingyuan-zhang/MotionDiffuse)]  
 <!-- 31 Aug 2022 -->
 
