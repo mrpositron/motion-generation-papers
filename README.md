@@ -1,6 +1,6 @@
 # Awesome Motion Generation Papers
 
-Last updated on: 17.04.2023
+Last updated on: 18.04.2023
 
 ### Modeling motion with ...
 1. [Variational Auto Encoders (VAEs)](#vaes)
@@ -11,9 +11,16 @@ Last updated on: 17.04.2023
 
 ## VAEs
 
+**T2M-GPT: Generating Human Motion from Textual Descriptions with Discrete Representations**   
+*Jianrong Zhang, Yangsong Zhang, Xiaodong Cun, Shaoli Huang, Yong Zhang, Hongwei Zhao, Hongtao Lu, Xi Shen*   
+Venue: CVPR2023   
+[[website](https://mael-zys.github.io/T2M-GPT/)][[arXiv](https://arxiv.org/abs/2301.06052)][[code](https://github.com/Mael-zys/T2M-GPT)][no video]   
+<!-- 15 Jan 2023 -->    
+> **tldr;** In this work, the authors use a combination of Vector Quantised-Variational AutoEncoder (VQ-VAE) and Generative Pre-trained Transformer (GPT) for generating human motion from text descriptions. They find that a simple CNN-based VQ-VAE with commonly used training techniques produces high-quality representations, and incorporating a corruption strategy during GPT training improves performance. Their proposed approach, T2M-GPT, outperforms recent diffusion-based approaches on a large dataset, HumanML3D, with better consistency between text and generated motion and lower FID score. However, the authors note that the dataset size is a limitation of their approach, and suggest that VQ-VAE remains a competitive approach for human motion generation.
+---
 **Generating Diverse and Natural 3D Human Motions from Text**   
-*Chuan Guo, Shihao Zou, Xinxin Zuo, Sen Wang, Wei Ji, Xingyu Li, Li Cheng*   
-Venue: CVPR2022
+*Chuan Guo, Shihao Zou, Xinxin Zuo, Sen Wang, Wei Ji, Xingyu Li, Li Cheng*      
+Venue: CVPR2022   
 [[website](https://ericguo5513.github.io/text-to-motion/)][[thecvf](https://openaccess.thecvf.com/content/CVPR2022/papers/Guo_Generating_Diverse_and_Natural_3D_Human_Motions_From_Text_CVPR_2022_paper.pdf)][[code](https://github.com/EricGuo5513/text-to-motion)][[video](https://youtu.be/085mBtMeZpg)]
 
 
@@ -39,7 +46,6 @@ Venue: arXiv preprint.
 <!-- 12 Feb 2023 -->
 
 > **tldr;** This work presents Single Motion Diffusion Model that learns internal motifs of a single motion sequence and generates motions of arbitrary length that are faithful to them. The model harnesses the power of diffusion models and includes a denoising network designed specifically for learning from a single input motion. The transformer-based architecture avoids overfitting and encourages motion diversity. SinMDM can be applied in various contexts, including spatial and temporal in-betweening, motion expansion, style transfer, and crowd animation. Results show that SinMDM outperforms existing methods in quality and time-space efficiency and facilitates applications at inference time without additional training.
-
 
 ---
 
