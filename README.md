@@ -48,6 +48,13 @@ Venue: arXiv preprint.
 > **tldr;** This work presents Single Motion Diffusion Model that learns internal motifs of a single motion sequence and generates motions of arbitrary length that are faithful to them. The model harnesses the power of diffusion models and includes a denoising network designed specifically for learning from a single input motion. The transformer-based architecture avoids overfitting and encourages motion diversity. SinMDM can be applied in various contexts, including spatial and temporal in-betweening, motion expansion, style transfer, and crowd animation. Results show that SinMDM outperforms existing methods in quality and time-space efficiency and facilitates applications at inference time without additional training.
 
 ---
+**Executing your Commands via Motion Diffusion in Latent Space**   
+*Xin Chen, Biao Jiang, Wen Liu, Zilong Huang, Bin Fu, Tao Chen, Jingyi Yu, Gang Yu*   
+Venue: CVPR2023   
+[[website](https://chenxin.tech/mld/)][[arXiv](https://arxiv.org/abs/2212.04048)][[code](https://github.com/ChenFengYe/motion-latent-diffusion)][no video]    
+> **tldr;**  The authors tackle the challenging task of conditional human motion generation, where they generate plausible human motion sequences based on conditional inputs like action classes or textual descriptors. They propose a Motion Latent-based Diffusion (MLD) model that uses a Variational AutoEncoder (VAE) to learn a low-dimensional latent code for human motion sequences, and then performs diffusion on the motion latent space to establish connections with conditional inputs. This approach reduces computational overhead and produces vivid motion sequences that outperform state-of-the-art methods on various human motion generation tasks, while being significantly faster than previous diffusion models on raw motion sequences.
+   
+---
 
 
 **MoFusion: A Framework for Denoising-Diffusion-based Motion Synthesis**  
