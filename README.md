@@ -5,7 +5,7 @@ Last updated on: 18.04.2023
 ### Modeling motion with ...
 1. [Variational Auto Encoders (VAEs)](#vaes)   
     - [T2M-GPT: Generating Human Motion from Textual Descriptions with Discrete Representations](#t2m-gpt-generating-human-motion-from-textual-descriptions-with-discrete-representations)
-    - [Generating Diverse and Natural 3D Human Motions from Text](#generating-diverse-and-natural-3d-human-motions-from-text)
+    - [Generating Diverse and Natural 3D Human Motions from Text](#generating-diverse-and-natural-3d-human-motions-from-text )
     
 2. [Diffusion Processes](#diffusion-processes)
 
