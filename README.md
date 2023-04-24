@@ -18,8 +18,15 @@ Last updated on: 18.04.2023
 *Jianrong Zhang, Yangsong Zhang, Xiaodong Cun, Shaoli Huang, Yong Zhang, Hongwei Zhao, Hongtao Lu, Xi Shen*   
 Venue: CVPR2023   
 [[website](https://mael-zys.github.io/T2M-GPT/)][[arXiv](https://arxiv.org/abs/2301.06052)][[code](https://github.com/Mael-zys/T2M-GPT)][no video]   
-<!-- 15 Jan 2023 -->    
-> **tldr;** In this work, the authors use a combination of Vector Quantised-Variational AutoEncoder (VQ-VAE) and Generative Pre-trained Transformer (GPT) for generating human motion from text descriptions. They find that a simple CNN-based VQ-VAE with commonly used training techniques produces high-quality representations, and incorporating a corruption strategy during GPT training improves performance. Their proposed approach, T2M-GPT, outperforms recent diffusion-based approaches on a large dataset, HumanML3D, with better consistency between text and generated motion and lower FID score. However, the authors note that the dataset size is a limitation of their approach, and suggest that VQ-VAE remains a competitive approach for human motion generation.
+<!-- 15 Jan 2023 -->  
+
+<details>
+<summary><b> tldr </b></summary>
+
+> In this work, the authors use a combination of Vector Quantised-Variational AutoEncoder (VQ-VAE) and Generative Pre-trained Transformer (GPT) for generating human motion from text descriptions. They find that a simple CNN-based VQ-VAE with commonly used training techniques produces high-quality representations, and incorporating a corruption strategy during GPT training improves performance. Their proposed approach, T2M-GPT, outperforms recent diffusion-based approaches on a large dataset, HumanML3D, with better consistency between text and generated motion and lower FID score. However, the authors note that the dataset size is a limitation of their approach, and suggest that VQ-VAE remains a competitive approach for human motion generation.
+</details>
+
+
 ---
 ### Generating Diverse and Natural 3D Human Motions from Text
 *Chuan Guo, Shihao Zou, Xinxin Zuo, Sen Wang, Wei Ji, Xingyu Li, Li Cheng*      
